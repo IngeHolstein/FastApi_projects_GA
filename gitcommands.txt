@@ -10,11 +10,14 @@ git commit -m "Initial commit local"
 # Añade el repositorio remoto
 git remote add origin https://github.com/Gersa28/FastApi_projects.git
 
+# Verifica que el remoto se haya añadido correctamente
+git remote -v
+
 # Traer el Readme si ha sido creado desde github
 git pull origin main --allow-unrelated-histories
 
-# Verifica que el remoto se haya añadido correctamente
-git remote -v
+# Commitear
+git commit -amv "Con Readme remoto"
 
 # Empuja tus cambios al repositorio remoto
 git push -u origin main

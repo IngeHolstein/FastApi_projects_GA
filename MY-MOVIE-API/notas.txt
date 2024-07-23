@@ -1,0 +1,10 @@
+
+python -m venv fastapi_venv
+
+fastapi_venv/Scripts/activate
+
+fastapi_dell/Scripts/activate
+
+deactivate 
+
+pip freeze > requirements.txt

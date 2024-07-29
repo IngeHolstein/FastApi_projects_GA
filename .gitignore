@@ -332,6 +332,9 @@ ipython_config.py
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
+# 1_MY-MOVIE-API
+fastapi_env
+
 # 2_BBDD-Modularizac-Deploy
 __pycache__
 env

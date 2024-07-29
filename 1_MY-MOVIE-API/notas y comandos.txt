@@ -1,0 +1,40 @@
+python -m venv fastapi_venv
+
+fastapi_venv/Scripts/activate
+
+python -m pip install --upgrade pip
+
+pip install fastapi uvicorn
+
+pip install pyjwt
+
+pip freeze > requirements.txt
+
+deactivate 
+
+-------------------------------
+python -m venv env
+
+env/Scripts/activate
+
+python -m pip install --upgrade pip
+
+pip install fastapi uvicorn
+
+pip install pyjwt
+
+pip freeze > requirements.txt
+
+deactivate 
+
+-----------------------------------
+
+# Ejecutar en consola
+uvicorn main:app --reload --port 8600
+
+# Observamos
+http://localhost:8500/
+
+# Si quisieramos publicarlo en la red hacemos lo siguiente:
+uvicorn main:app --reload --port 8600 --host 0.0.0.0
+# Luego ingresamos la IP de la PC servidor y el puerto

@@ -331,3 +331,10 @@ ipython_config.py
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# 2_BBDD-Modularizac-Deploy
+__pycache__
+env
+venv
+database.sqlite
+passwords.txt
